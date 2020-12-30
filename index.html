@@ -10,40 +10,92 @@
   <body>
     <!--Header-->
 
-    <header>
-      <div class="container">
-        <img src="IMAGES/WebbHusetHalmstadBlack.svg" alt="" />
-        <img src="IMAGES/Menu.svg" class="show-mobile hide-desktop" alt="" />
+    <div class="container">
+      <header>
+        <img
+          src="IMAGES/WebbHusetHalmstadBlack.svg"
+          alt="WebbHuset Halmstad"
+          class="logo"
+        />
 
-        <nav class="show-desktop hide-mobile">
-          <ul>
-            <li><a href="#">X</a></li>
+        <nav>
+          <a href="#" class="hide-desktop">
+            <img
+              src="IMAGES/Menu.svg"
+              alt="toggle menu"
+              class="menu"
+              id="menu"
+            />
+          </a>
+
+          <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img src="IMAGES/Exitbtnwhite2.0.svg" alt="" />
+            </li>
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
+            <li><a href="#">Products</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Projects</a></li>
           </ul>
         </nav>
-
-        <hr />
-      </div>
-    </header>
+      </header>
+    </div>
 
     <!--End header-->
 
     <!--Footer-->
 
     <footer>
-      <img src="IMAGES/WebbHusetHalmstadWhite.svg" alt="" />
+      <div class="footer-img">
+        <img src="IMAGES/WebbHusetHalmstadWhite.svg" alt="" />
+      </div>
 
-      <ul>
-          <li><a href="#">Github</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Instagram</a></li>
+      <p id="footer-contact">
+        Contact:
+        <br />
+        Tel: <a href="tel:+466337388">+466337388</a>
+        <br />
+        Mail: <a href="mailto:gunilla@edwardblom.se">gunilla@edwardblom.se</a>
+      </p>
+
+      <ul id="footer-socialmedia">
+        <a href="https://www.facebook.com/edward.blom.50" target="_blank"
+          >Facebook</a
+        >
+        <a
+          href="https://www.youtube.com/channel/UCk7eWKZqL73gvDHDbUajAyQ"
+          target="_blank"
+          >YouTube</a
+        >
+
+        <br />
+        <a href="https://www.instagram.com/edward_blom/?hl=sv" target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://twitter.com/Edward_Blom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          target="_blank"
+          >Twitter</a
+        >
       </ul>
-      
     </footer>
     <!--End footer-->
+
+    <script>
+      var menu = document.getElementById("menu");
+      var nav = document.getElementById("nav");
+      var exit = document.getElementById("exit");
+
+      menu.addEventListener("click", function (e) {
+        nav.classList.toggle('hide-mobile');
+        e.preventDefault();
+      });
+
+      exit.addEventListener("click", function (e) {
+        nav.classList.add('hide-mobile');
+        e.preventDefault();
+      });
+
+    </script>
   </body>
 </html>
