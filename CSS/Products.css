@@ -1,72 +1,87 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
-html {
-
-  background-color: #edefee;
-  font-family: Quicksand;
-}
-
-body {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
 
-/*Header*/
+.txt-container{
+    height: 100vh;
+    font-size: 10px;
 
-.container{
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 10px;
+    color: #424C56;
     text-align: center;
-    padding:  0 1.2em;
-}
-
-.logo {
-    width: 150px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu {
-    width: 25px;
-    margin-top: 50%;
-}
-
-.hide-mobile{
-    display: none;
+    font-weight: 1;
 }
 
 
-.container nav a {
-  color: #424c56;
-  text-decoration: none;
-}
 
-.container nav a:hover {
-  color: #647381;
-}
-
-/*End Header*/
-
-/*Footer*/
-
-.footer_container{
-    background-color: #424c56;
+.Contact-btn{
     display: block;
+    width: 130px;
+    border-style: solid;
+    border-color: #424C56;
+    border-width: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #424C56;
+    text-decoration: none;
+
+    margin: 10px 0 0 50px;
+    
+    
+}
+
+.Contact-btn:hover{
+    background-color: #3b5b7a;
+    border-color: #3b5b7a;
+    color: white;
 }
 
 
-/*End Footer*/
+.txt-container h1:nth-child(1){
+    padding-top: 50%;
+    margin-right: 170px;
+}
+
+.txt-container h1:nth-child(2){
+   margin-right: 50px;
+}
+
+.Prd-hero-container {
+  text-align: center;
+  padding: 0.8em 1.2em;
+  margin-bottom: 100px;
+}
+
+.Prd-container ul li{
+
+  padding-bottom: 150px;
+}
+.Prd-container ul li p {
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.Prd-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15% 0 15% 0;
+
+}
+
+
+
+
+
+

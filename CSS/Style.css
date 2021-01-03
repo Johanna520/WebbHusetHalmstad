@@ -3,12 +3,17 @@
 html {
 
   background-color: #edefee;
-  font-family: Quicksand;
+  color: #424c56;
+  font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 body {
   margin: 0;
+  padding-bottom: 103px;
+  position: relative;
+  min-height: 100vh;
 }
+
 
 ul {
   list-style-type: none;
@@ -80,10 +85,11 @@ header {
 /*Footer */
 
 footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 25px;
   background-color: #424c56;
 }
 
