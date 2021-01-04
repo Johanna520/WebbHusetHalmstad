@@ -17,9 +17,15 @@ p {
   justify-content: center;
 }
 
+
+
+.hide-mobile{
+  display: none;
+}
+
 /*Hero section*/
 
-.show-desktop {
+.scroll-desktop {
   display: none;
 }
 
@@ -44,7 +50,7 @@ p {
 #hero h1{
   display: block;
   width: fit-content;
-  font-size: 3rem;
+  font-size: 2rem;
   position: relative;
   color: transparent;
   animation: text_reveal .5s ease forwards;
@@ -116,6 +122,8 @@ p {
   text-align: center;
 }
 
+
+
 .products{
   padding: .3em 1.2em;
 }
@@ -163,17 +171,30 @@ p {
 
 /* Media queries*/
 
-@media only screen and (min-width: 760px){
-  #scroll-cnt{
-    position: absolute;
-    right: 0;
-    margin-right: 100px;
+@media screen and (min-width: 480px){
+
+  .container{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.8) 100%), url(/IMAGES/HeaderPicture.jpg);
   }
+  
+
+}
+
+@media screen and (min-width: 768px){
 
   .show-desktop{
-  display: initial;
-  width: 60px;
+    display: block;
+  }
 }
+
+@media screen and (min-width: 1024px){
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+
 }
 
 /* End Media queries*/

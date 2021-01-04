@@ -9,21 +9,13 @@ div{
 }
 
 
-#bg-img-home{
-    width: 80%;
-    height: 150%;
-    z-index: -1;
-<<<<<<< HEAD
-=======
-    border:1px solid #424c56;;
-   
-    margin: 30px;
-}
 
 #home-text{
-    background: url(IMAGES/HeaderPicture.jpg);
+    background: url(/IMAGES/HeaderPicture.jpg);
+    background-position: top;
     margin-top: 10px;
-    border:1px solid #424c56;
+    border:10px solid white;
+    color: white;
     padding:20px;
     
 }
@@ -48,5 +40,4 @@ aside{
 #item3{
     border:1px solid #424c56;;
     padding: 20px;
->>>>>>> 0e291b2b7850719b9278cef6abf4880ce2797532
 }
