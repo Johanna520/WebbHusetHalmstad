@@ -8,7 +8,7 @@ div{
     
 }
 
-
+/*
 #bg-img-home{
     width: 80%;
     height: 150%;
@@ -16,34 +16,62 @@ div{
     border:1px solid #424c56;;
    
     margin: 30px;
-}
+}*/
 
 #home-text{
-    background: url(IMAGES/HeaderPicture.jpg);
-    margin-top: 10px;
+    
+    background: linear-gradient(to bottom, rgba(27, 27, 27, 0.3) 0%, rgba(51, 51, 51, 0.8) 100%), url(/IMAGES/HeaderPicture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: auto;
+    color: white;
     border:1px solid #424c56;
     padding:20px;
+    margin: 5em 30px;
     
 }
-
+#Welcome{
+    
+    font-size: 42px;
+}
+#h1-sup{
+    
+    font-size: 38px;
+}
+#home-text h2{
+    text-align: center;
+}
+#home-text h3{
+    text-align: left;
+}
+#home-text h4{
+    text-align: center;
+    font-style: italic;
+}
 
 aside{
+  
     border:1px solid #424c56;;
     padding:20px;
-    margin: 30px;
+    margin: 25em 30px auto;
 }
 
 #item1{
+    font-size:small;
     border:1px solid #424c56;;
     padding: 20px;
+    margin: 20px auto;
 }
 
 #item2{
+    font-size:small;
     border:1px solid #424c56;;
     padding: 20px;
 }
 
 #item3{
+    font-size:small;
     border:1px solid #424c56;;
     padding: 20px;
 }
