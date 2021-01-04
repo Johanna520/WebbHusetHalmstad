@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+   
 }
 div{
     display: block;
@@ -11,41 +11,37 @@ div{
 
 
 section{
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    padding: 20px 30px;
     
+    width: 100%; 
+    padding: 20px; 
     background: url(/IMAGES/HeaderPicture.jpg);
     background-repeat: no-repeat;
     background-position: center;
-
-    
 }
 
 #home-text{
     height: auto;
     background-color: #edefee;
-    border:1px solid #424c56 center;
+    border:1px solid #414d58;
     padding:20px;
-    margin: 15em 30px 20px;
-    
+    margin: 30px 20px;
 }
 
 #Welcome{
-    text-align: center;
+    text-align: left;
     font-size: 38px;
     
 }
 #h1-sup{
     
-    font-size: 24px;
-    text-align: left;
+    font-size: 22px;
+    
     
 }
 #home-text h2{
     
     font-size: 14px;
+    text-align: right;
   
 
 }
@@ -61,26 +57,26 @@ section{
 
 aside{
   
-    border:1px solid #424c56;;
+    border:1px solid #424c56;
     padding:20px;
     margin: 15em 30px 20px;
 }
 
 #item1{
     font-size:small;
-    border:1px solid #424c56;;
+    border:1px solid #424c56;
     padding: 20px;
     margin: 20px auto;
 }
 
 #item2{
     font-size:small;
-    border:1px solid #424c56;;
+    border:1px solid #424c56;
     padding: 20px;
 }
 
 #item3{
     font-size:small;
-    border:1px solid #424c56;;
+    border:1px solid #424c56;
     padding: 20px;
 }
