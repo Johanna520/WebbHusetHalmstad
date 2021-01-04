@@ -5,9 +5,48 @@
 }
 div{
     display: block;
+    
 }
 
-.bg-img-hompage{
-    width: 100%;
+
+#bg-img-home{
+    width: 80%;
+    height: 150%;
     z-index: -1;
+<<<<<<< HEAD
+=======
+    border:1px solid #424c56;;
+   
+    margin: 30px;
+}
+
+#home-text{
+    background: url(IMAGES/HeaderPicture.jpg);
+    margin-top: 10px;
+    border:1px solid #424c56;
+    padding:20px;
+    
+}
+
+
+aside{
+    border:1px solid #424c56;;
+    padding:20px;
+    margin: 30px;
+}
+
+#item1{
+    border:1px solid #424c56;;
+    padding: 20px;
+}
+
+#item2{
+    border:1px solid #424c56;;
+    padding: 20px;
+}
+
+#item3{
+    border:1px solid #424c56;;
+    padding: 20px;
+>>>>>>> 0e291b2b7850719b9278cef6abf4880ce2797532
 }
