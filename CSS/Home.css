@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+
+.bg-img-hompage{
+    width: 100%;
+    z-index: -1;
+  
