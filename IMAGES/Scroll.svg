@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="715" viewBox="0 0 93 715">
+  <g id="Scroll" transform="translate(-1381 -474.5)">
+    <line id="Line_25" data-name="Line 25" y1="715" transform="translate(1427.5 474.5)" fill="none" stroke="#000" stroke-width="2"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1381 490)" fill="#424c56" stroke="#707070" stroke-width="1">
+      <ellipse cx="46.5" cy="42.5" rx="46.5" ry="42.5" stroke="none"/>
+      <ellipse cx="46.5" cy="42.5" rx="46" ry="42" fill="none"/>
+    </g>
+  </g>
+</svg>

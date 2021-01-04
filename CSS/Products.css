@@ -19,6 +19,10 @@ p {
 
 /*Hero section*/
 
+.show-desktop {
+  display: none;
+}
+
 #text-btn{
   margin-bottom: 200px;
 }
@@ -156,3 +160,20 @@ p {
 }
 
 /*EndKeyframe*/
+
+/* Media queries*/
+
+@media only screen and (min-width: 760px){
+  #scroll-cnt{
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+  }
+
+  .show-desktop{
+  display: initial;
+  width: 60px;
+}
+}
+
+/* End Media queries*/
