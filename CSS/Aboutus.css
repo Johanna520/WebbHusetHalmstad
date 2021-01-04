@@ -12,24 +12,21 @@
   .hero-about-us-container h1{
       text-align: center;
       font-size: 2rem;
-      padding: 5px 15px;
-      border: 3px solid red;
+      padding-bottom: 5px;
+      padding-top: 15px;
   }
 
   .hero-about-us-container p{
-    border: 3px solid red;
     float:left;
     padding: 10px 15px;
   }
 
   .about-us-container {
     text-align: center;
-    border: 1px solid red;
     padding: 120px;
   }
 
   .about-us-persons img{
-    border: 3px solid red;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,11 +35,14 @@
     height: auto;
     border-radius:50%;
     padding-top: 20px;
-    position:relative;
+    padding-bottom: 5px;
+  }
+
+  .about-us-persons img:hover{
+    opacity: 0.5;
   }
 
   .about-us-persons h1{
-    border: 3px solid red;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -51,6 +51,6 @@
     padding-bottom: 20px;
   }
 
-  li:nth-child(4){
-    background: yellow;
+  .about-us-persons h1:hover{
+    opacity: 0.5;
   }
