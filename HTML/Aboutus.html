@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>About Us</title>
+        <link rel="stylesheet" href="../CSS/Aboutus.css" />
+        <link rel="stylesheet" href="../CSS/Style.css" />
+     </head>
+     <body>
+          <!--Header-->
+
+    <div class="container">
+        <header>
+          <a href="/index.html"><img src="../IMAGES/WebbHusetHalmstadNavyBlue.svg"alt="WebbHuset Halmstad" class="logo"/></a>
+  
+          <nav>
+            <a href="#" class="hide-desktop">
+              <img
+                src="../IMAGES/Menu.svg"
+                alt="toggle menu"
+                class="menu"
+                id="menu"
+              />
+            </a>
+  
+            <ul class="show-desktop hide-mobile" id="nav">
+              <li id="exit" class="exit-btn hide-desktop">
+                <img src="../IMAGES/Exitbtnwhite2.0.svg" alt="" />
+              </li>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="Aboutus.html">About us</a></li>
+              <li><a href="Products.html">Products</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+  
+      <!--End header-->
+
+      <!--Hero section-->
+
+      <section id="hero-about-us">
+            <div class="hero-about-us-container">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus maiores id recusandae eligendi eos expedita fugiat! Doloremque natus cumque non distinctio hic repudiandae, pariatur nobis, dolor animi laboriosam sequi quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                <p>Voluptatibus maiores id recusandae eligendi eos expedita fugiat! Doloremque natus cumque non distinctio hic repudiandae, pariatur nobis, dolor animi laboriosam sequi quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus maiores id recusandae eligendi eos expedita fugiat!</p>
+                    
+                <p>Doloremque natus cumque non distinctio hic repudiandae, pariatur nobis, dolor animi laboriosam sequi quod. Voluptatibus maiores id recusandae eligendi eos expedita fugiat! Doloremque natus cumque non distinctio hic repudiandae, pariatur nobis, dolor animi laboriosam sequi quod.</p>
+            </div>
+        </section>
+
+      <!--End Hero section-->
+
+      <!--About Us section-->
+
+        <section id="main-about-us">
+            <div class="main-about-us-container">
+                <div class="about-us-persons">
+                    <ul>
+                        <li>    
+                            <img src="/IMAGES/Ernst.jpg" alt="Ernst Blom">
+                            <h1>Ernst Blom<br>Lead Developer</h1>
+                        </li>
+                        <li>    
+                            <img src="/IMAGES/Evelina.jpg" alt="Evelina Kirchsteiger">
+                            <h1>Evelina Kirchsteiger<br>Lead Developer</h1>
+                        </li>
+                        <li>    
+                            <img src="/IMAGES/Stefan.jpg" alt="Stefan Åkesson">
+                            <h1>Stefan Åkesson<br>Lead Developer</h1>
+                        </li>
+                        <li>    
+                            <img src="/IMAGES/Jimmie.jpg" alt="Jimmie Löfven">
+                            <h1>Jimmie Löfven<br>Lead Developer</h1>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+      <!--End About us section-->
+
+      <!--Footer-->
+
+    <footer>
+        <div class="footer-img">
+          <img src="../IMAGES/WebbHusetHalmstadWhite.svg" alt="" />
+        </div>
+  
+        <p id="footer-contact">
+          Contact:
+          <br />
+          Tel: <a href="tel:+466337388">+466337388</a>
+          <br />
+          Mail: <a href="mailto:wh-halmstad@gmail.com">wh-halmstad@gmail.com</a>
+        </p>
+  
+        <ul id="footer-socialmedia">
+          <a href="https://www.facebook.com/edward.blom.50" target="_blank"
+            >Facebook</a
+          >
+          <a
+            href="https://www.youtube.com/channel/UCk7eWKZqL73gvDHDbUajAyQ"
+            target="_blank"
+            >YouTube</a
+          >
+  
+          <br />
+          <a href="https://www.instagram.com/edward_blom/?hl=sv" target="_blank"
+            >Instagram</a
+          >
+          <a
+            href="https://twitter.com/Edward_Blom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            target="_blank"
+            >Twitter</a
+          >
+        </ul>
+      </footer>
+  
+      <!--End footer-->
+
+      <script>
+        var menu = document.getElementById("menu");
+        var nav = document.getElementById("nav");
+        var exit = document.getElementById("exit");
+  
+        menu.addEventListener("click", function (e) {
+          nav.classList.toggle("hide-mobile");
+          e.preventDefault();
+        });
+  
+        exit.addEventListener("click", function (e) {
+          nav.classList.add("hide-mobile");
+          e.preventDefault();
+        });
+      </script>
+     </body>
+</html>
