@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
 html {
-
   background-color: #edefee;
   color: #424c56;
-  font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Quicksand", sans-serif, Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -13,10 +12,9 @@ body {
   position: relative;
   min-height: 100vh;
 }
-a{
+a {
   text-decoration: none;
 }
-
 
 ul {
   list-style-type: none;
@@ -25,63 +23,64 @@ ul {
 }
 
 nav ul {
-    position: fixed;
-    width: 35%;
-    top: 0;
-    right: 0;
-    text-align: left;
-    background: #424c56;
-    height: 100%;
-    padding-top: 3em;
-    
+  position: fixed;
+  width: 35%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background: #424c56;
+  height: 100%;
+  padding-top: 3em;
 }
 
 nav ul li a {
-    color: white;
-    display: block;
-    width: 100%;
-    padding: 1em  2em;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 1em 2em;
 }
 
-
 .exit-btn {
-    margin-bottom: 1em;
-    margin-top: -2em;
-    padding: 0 1.4em;
-    text-align: right;
+  margin-bottom: 1em;
+  margin-top: -2em;
+  padding: 0 1.4em;
+  text-align: right;
 }
 
 .exit-btn img {
-    width: 15px;
-    cursor: pointer;
+  width: 15px;
+  cursor: pointer;
 }
 /*Header*/
 
-.container{
-    text-align: center;
-    padding:  0 1.2em;
-    background-color: #e9e8e8 ;
+.container {
+  text-align: center;
+  padding: 0 1.2em;
+  background-color: #e9e8e8;
 }
 
-.logo {
-    width: 150px;
+.logo1 {
+  width: 150px;
+}
+
+.logo2 {
+  width: 150px;
+  display: none;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu {
-    width: 25px;
-    margin-top: 50%;
+  width: 25px;
+  margin-top: 50%;
 }
 
-.hide-mobile{
-    display: none;
+.hide-mobile {
+  display: none;
 }
-
-
 
 /*End Header*/
 
@@ -99,45 +98,54 @@ footer a {
   text-decoration: none;
 }
 
-
 footer a:hover {
   color: rgb(236, 220, 220);
 }
 
-
 footer p {
   color: white;
+  font-size: 10px;
 }
-
 
 .footer-img img {
   display: block;
   width: 10rem;
   margin: auto;
-  margin-bottom: -30px;
 }
 
+#footer-contact {
+  float: left;
+  flex-direction: column;  
+}
 
-#footer-contact{
-    float: left;
-    padding: 0 10px 0 0;
-    margin-left: 10px;
-   
-} 
+#footer-contact p{
+  font-size: 15px;
+  margin-left: 5px;
+}
 
-#footer-socialmedia{
-    float: right;
-    margin: 0 10px;
+#footer-contact a {
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+#footer-socialmedia {
+  position: relative;
+  width: 100%;
   
-    margin-top: 30px;
+}
 
-    
+#footer-socialmedia ul {
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 5px;
+  
 }
 
 #footer-socialmedia a {
-    padding-right: 5px;
+  font-size: 13px;
+  padding-right: 5px;
 }
-
 
 
 
