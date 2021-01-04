@@ -24,13 +24,14 @@ ul {
 
 nav ul {
   position: fixed;
-  width: 35%;
+  width: 45%;
   top: 0;
   right: 0;
   text-align: left;
   background: #424c56;
   height: 100%;
   padding-top: 3em;
+  z-index: 1;
 }
 
 nav ul li a {
