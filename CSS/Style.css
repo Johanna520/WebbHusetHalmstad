@@ -60,6 +60,7 @@ nav ul li a {
 .container{
     text-align: center;
     padding:  0 1.2em;
+    background-color: #e9e8e8 ;
 }
 
 .logo {
@@ -89,8 +90,7 @@ header {
 footer {
   position: absolute;
   bottom: 0;
-  width: 90%;
-  margin: 10px 25px;
+  width: 100%;
   background-color: #424c56;
 }
 

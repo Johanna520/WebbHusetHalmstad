@@ -23,11 +23,12 @@ p {
   margin-bottom: 200px;
 }
 
-
 #text-btn h1:nth-child(2){
-  padding-left: 50px;
+  left: 1.5em;
 }
-
+#text-btn h1:nth-child(3){
+  left: .8em;
+}
 
 #hero .hero{
   max-width: 1200px;
@@ -49,6 +50,7 @@ p {
 
 #hero h1:nth-child(1){
   animation-delay: 1s;
+  right: 10;
 }
 #hero h1:nth-child(2){
   animation-delay: 2s;
@@ -81,9 +83,9 @@ p {
 #hero .cta-btn{
   display: inline-block;
   padding: 10px 30px;
-  color: #424c56;
+  color: #0480b1;
   background-color: transparent;
-  border: 2px solid #424c56;
+  border: 2px solid #0480b1;
   font-size: 1rem;
   text-transform: uppercase;
   border-radius: 12px;
@@ -91,11 +93,12 @@ p {
   margin-top: 30px;
   transition: .3s ease background-color;
   transition-property: background-color, color;
+  
 }
 
 #hero .cta-btn:hover{
   color: white;
-  background-color: #424c56;
+  background-color: #0480b1;
 }
 
 /*End Hero section*/
