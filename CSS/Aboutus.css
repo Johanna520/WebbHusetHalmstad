@@ -38,10 +38,6 @@
     padding-bottom: 5px;
   }
 
-  .about-us-persons img:hover{
-    opacity: 0.5;
-  }
-
   .about-us-persons h1{
     display: block;
     margin-right: auto;
