@@ -8,23 +8,27 @@ div{
     display: block;
     
 }
+.home{
+ position: absolut;
+}
 
 
-section{
-    
+.home-container{
+   
     width: 100%; 
     padding: 20px; 
     background: url(/IMAGES/HeaderPicture.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: auto;
 }
 
 #home-text{
-    height: auto;
+    height: 100%;
     background-color: #edefee;
     border:1px solid #414d58;
     padding:20px;
-    margin: 30px 20px;
+    margin: 20px 30px;
 }
 
 #Welcome{
@@ -50,33 +54,23 @@ section{
     font-style: italic;
     
 }
-#home-text h4{
-    text-align: left;
+.slogan h4{
+    
+    
+    top: 400px;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
    
 }
-
 aside{
-  
+    position: absolut;
+}
+.home-aside{
+    
+    top: 320px;
+    bottom: 20px;
     border:1px solid #424c56;
     padding:20px;
     margin: 15em 30px 20px;
-}
-
-#item1{
-    font-size:small;
-    border:1px solid #424c56;
-    padding: 20px;
-    margin: 20px auto;
-}
-
-#item2{
-    font-size:small;
-    border:1px solid #424c56;
-    padding: 20px;
-}
-
-#item3{
-    font-size:small;
-    border:1px solid #424c56;
-    padding: 20px;
 }
