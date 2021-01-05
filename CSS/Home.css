@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
    
 }
 div{
@@ -9,54 +10,77 @@ div{
     
 }
 .home{
- position: absolut;
+ 
 }
 
-
-.home-container{
+.box{
+    border: solid #edefee 2px;
+    background-color: #edefee;
    
-    width: 100%; 
-    padding: 20px; 
-    background: url(/IMAGES/HeaderPicture.jpg);
+    padding: 0 10px; 
+    
+}
+.home-container{
+    background-image: url(/IMAGES/HeaderPicture.jpg);
+    background-color: #edefee;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.home-text{
+    
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #edefee;
+ 
+   /* background-image: url(/IMAGES/HeaderPicture.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-}
-
-#home-text{
     height: 100%;
-    background-color: #edefee;
-    border:1px solid #414d58;
+    
+    border:1px solid #edefee;
     padding:20px;
-    margin: 20px 30px;
+    margin: 20px 30px;*/
 }
 
-#Welcome{
+#Welcome h1{
+
     text-align: left;
     font-size: 38px;
-    
+  
+   
 }
-#h1-sup{
-    
+
+#h1-sup h1{
+   
     font-size: 22px;
     
     
 }
 #home-text h2{
-    
+
+    margin:10px;
     font-size: 14px;
     text-align: right;
   
 
 }
 #home-text h3{
+    
     text-align: center;
     font-style: italic;
     
 }
 .slogan h4{
-    
-    
+ 
     top: 400px;
     font-style: italic;
     font-size: 18px;
@@ -65,6 +89,11 @@ div{
 }
 aside{
     position: absolut;
+   
+}
+
+#btn{
+    background-color: #424c56;
 }
 .home-aside{
     
