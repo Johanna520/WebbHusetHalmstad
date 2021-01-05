@@ -14,6 +14,7 @@ html {
 }
 
 .header-line {
+  display: none;
 }
 
 body {
@@ -64,7 +65,7 @@ nav ul li a {
 }
 /*Header*/
 
-.container {
+.container-head {
   text-align: center;
   padding: 0 1.2em;
   background-color: #e9e8e8;
@@ -167,13 +168,25 @@ footer p {
     display: block;
     position: absolute;
     left: 0;
+    width: 25%;
+    margin-top: 2vh;
+    margin-left: 40vw;
   }
 
+
+  .hide-mobile{
+    padding: 0;
+    margin: 0;
+  }
+  .show-desktop{
+    margin: 0;
+    padding: 0;
+  }
   .hide-desktop {
     display: none;
   }
 
-  .container {
+  .container-head {
     background: linear-gradient(
         to bottom,
         rgba(141, 141, 141, 0.5) 0%,
@@ -189,17 +202,21 @@ footer p {
     position: relative;
   }
   .header-line {
+    display: block;
     margin-top: 10px;
     border: 1px solid #424c56;
+
   }
 
-  .container nav {
+  .container-head nav {
     bottom: 0;
-    left: 0;
+    right: 0;
+    width: 100%;
     position: absolute;
+    
   }
 
-  .container nav ul {
+  .container-head nav ul {
     background: transparent;
     display: flex;
     position: initial;
@@ -208,14 +225,47 @@ footer p {
     text-align: center;
   }
 
-  .container nav ul li {
-    padding: 0 40px;
+  .container-head nav ul li {
+    padding: 0 15%;
+  }
+  
+    .container-head nav ul li a {
+      color: black;
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 0;
+      width: 100px;
+    }
+
+  .container-head nav ul li a:hover{
+    color: #0480b1;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .logo2{
+    width: 30%;
+    margin-left: 350px;
   }
 
-  .container nav ul li a {
-    color: black;
-    font-weight: bold;
-    padding: 0;
-    width: 100px;
+  .container-head ul li a {
+    margin-left: 15%;
+    font-size: 20px;
+    transition: .3s ease color;
   }
+  .container-head nav ul li a:hover{
+    color:   #0480b1;
+  }
+
+ 
+  
+
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1920px){
+  
 }
