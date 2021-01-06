@@ -1,9 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
+*{
+  font-family: "Quicksand", sans-serif, Arial, Helvetica, sans-serif !important;
+  
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background-color: #edefee;
   color: #424c56;
-  font-family: "Quicksand", sans-serif, Arial, Helvetica, sans-serif;
+  
 }
 
 .header-line {
@@ -213,18 +223,20 @@ footer p {
     background: transparent;
     display: flex;
     position: initial;
+    width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
+    justify-content: space-between;
   }
 
   .container-head nav ul li {
-    padding: 0 15%;
+    padding: 0 5% 0 5%;
   }
   
     .container-head nav ul li a {
       color: black;
-      font-size: 1.3em;
+      font-size: 1.2em;
       font-weight: bold;
       padding: 0;
       width: 100px;
@@ -244,7 +256,7 @@ footer p {
 
   .container-head ul li a {
     margin-left: 15%;
-    font-size: 20px;
+    font-size: 30px;
     transition: .3s ease color;
   }
   .container-head nav ul li a:hover{
