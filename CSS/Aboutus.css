@@ -26,7 +26,7 @@
     padding: 120px;
   }
 
-  .about-us-persons img{
+  .accordion-header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +38,7 @@
     padding-bottom: 5px;
   }
 
-  .about-us-persons h1{
+  .accordion-header button{
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -47,6 +47,6 @@
     padding-bottom: 20px;
   }
 
-  .about-us-persons h1:hover{
+  .accordion-header button:hover{
     opacity: 0.5;
   }
