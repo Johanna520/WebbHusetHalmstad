@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -241,6 +239,17 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
+  
+  #products{
+  text-align: unset;
+  }
+
+  .products-item ul li img {
+    text-align: left;
+  }
+  .products-item ul li p{
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1920px) {
