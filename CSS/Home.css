@@ -12,7 +12,6 @@ div{
 
 .home-container{
     background-image:  url(/IMAGES/home-picture.jpg);
-
     background-color: #edefee;
     height: 500px;
     background-position: center;
@@ -71,5 +70,8 @@ div{
     background-color: #edefee;
     border:1px solid #424c56;
     padding:20px;
-    margin: 15em 30px 20px;
+    margin: 7em 30px 20px;
 }
+
+
+/*media queries*/
