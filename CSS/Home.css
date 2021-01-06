@@ -66,7 +66,7 @@ div{
 }
 
 
-.home-aside{
+.aside-container{
     background-color: #edefee;
     border:1px solid #424c56;
     padding:20px;
@@ -75,3 +75,33 @@ div{
 
 
 /*media queries*/
+@media screen and (min-width: 768px) {
+section{
+    margin-top: 50px;
+    margin-bottom: 250px;;
+}
+
+
+
+.home-container{
+ 
+     width: 60%; 
+     float: left;
+     position: flex;
+
+     
+}
+.aside-container{
+   position: flex;
+    float:right;
+    width: 30%;
+    
+    margin:0;
+}
+
+/*
+.aside-container h1{
+    text-align: center;
+  
+    
+}*/
