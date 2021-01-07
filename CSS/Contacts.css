@@ -1,3 +1,9 @@
+a:visited{
+text-decoration: none;
+}
+a:hover{
+}
+
 p{
     margin: 0;
     padding: 0;
@@ -36,10 +42,14 @@ p{
 .about-button{
     border: solid black 2px;
     padding: 5px 15px 5px 15px;
-    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
     font-size: 22px;
     font-weight: 600;
 }
+
 
 .contact-container #people{
     color: #424c56;
