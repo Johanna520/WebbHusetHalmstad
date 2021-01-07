@@ -139,7 +139,7 @@ p {
 }
 
 .products {
-  padding: 0.3em 1.2em;
+  padding: 0.3em 1.8em;
 }
 .products-item  {
   padding-bottom: 100px;
@@ -154,6 +154,10 @@ p {
   max-width: 100%;
   height: auto;
   border-radius: 15% 0 15% 0;
+}
+
+.prdc img {
+
 }
 
 .products-item img {
@@ -213,7 +217,7 @@ p {
     bottom: 8rem;
   }
   .prdc img{
-  max-width: 550px;
+  max-width: 450px;
   }
 
 }
@@ -320,7 +324,7 @@ p {
   
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1600px) {
 }
 
 /* End Media queries*/
