@@ -1,16 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-
+*{
+  font-family: "Quicksand", sans-serif, Arial, Helvetica, sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
 html {
   background-color: #edefee;
   color: #424c56;
-  font-family: "Quicksand", sans-serif, Arial, Helvetica, sans-serif;
+  
+}
+
+.header-line {
+  display: none;
 }
 
 body {
   margin: 0;
+ 
   padding-bottom: 150px;
   position: relative;
   min-height: 100vh;
+  background-color: #edefee;
 }
 a {
   text-decoration: none;
@@ -54,7 +68,7 @@ nav ul li a {
 }
 /*Header*/
 
-.container {
+.container-head {
   text-align: center;
   padding: 0 1.2em;
   background-color: #e9e8e8;
@@ -116,10 +130,10 @@ footer p {
 
 #footer-contact {
   float: left;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
-#footer-contact p{
+#footer-contact p {
   font-size: 15px;
   margin-left: 5px;
 }
@@ -132,7 +146,6 @@ footer p {
 #footer-socialmedia {
   position: relative;
   width: 100%;
-  
 }
 
 #footer-socialmedia ul {
@@ -140,7 +153,6 @@ footer p {
   right: 0;
   margin-top: 20px;
   margin-right: 5px;
-  
 }
 
 #footer-socialmedia a {
@@ -148,7 +160,120 @@ footer p {
   padding-right: 5px;
 }
 
-
-
-
 /*end Footer */
+
+@media screen and (min-width: 768px) {
+  .logo1 {
+    display: none;
+  }
+
+  .logo2 {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 25%;
+    margin-top: 2vh;
+    margin-left: 40vw;
+  }
+
+
+  .hide-mobile{
+    padding: 0;
+    margin: 0;
+  }
+  .show-desktop{
+    margin: 0;
+    padding: 0;
+  }
+  .hide-desktop {
+    display: none;
+  }
+
+  .container-head {
+    background: linear-gradient(
+        to bottom,
+        rgba(141, 141, 141, 0.5) 0%,
+        rgba(145, 145, 145, 0.8) 100%
+      ),
+      url(/IMAGES/HeaderPicture.jpg);
+    height: 150px;
+  }
+
+  header {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    
+    z-index: 10;
+  }
+  .header-line {
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #424c56;
+    
+
+  }
+
+  .container-head nav {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    
+  }
+
+  .container-head nav ul {
+    background: transparent;
+    display: flex;
+    position: initial;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .container-head nav ul li {
+    padding: 0 5% 0 5%;
+  }
+  
+    .container-head nav ul li a {
+      color: black;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 0;
+      width: 100px;
+    }
+
+  .container-head nav ul li a:hover{
+    color: #0480b1;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .logo2{
+    width: 30%;
+    margin-left: 350px;
+  }
+
+  .container-head ul li a {
+    margin-left: 15%;
+    font-size: 30px;
+    transition: .3s ease color;
+  }
+  .container-head nav ul li a:hover{
+    color:   #0480b1;
+  }
+
+ 
+  
+
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1920px){
+  
+}
