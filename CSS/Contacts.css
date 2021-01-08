@@ -83,22 +83,33 @@ p{
 }
 
 /*320px - 480px: TELEFON*/
-@media screen and(min-width: 480px){
+@media screen and (min-width: 480px){
 
-}
-/*481px - 768px: TABLET*/
-@media screen and(min-width: 768px){
     
 }
+/*481px - 768px: TABLET*/
+@media screen and (min-width: 768px){
+    .contact-container {
+        margin-top: 50px;
+    }
+    #hero-text{
+        height: 200px;
+        margin-top: 100px;
+    }
+
+    .about-button{
+        display: none;
+    }
+}
 /*769px - 1024px: LAPTOP*/
-@media screen and(min-width: 1024px){
+@media screen and (min-width: 1024px){
     
 }
 /*1025px - 1200px: DESKTOP*/
-@media screen and(min-width: 120px){
+@media screen and (min-width: 120px){
     
 }
 /*1201px - 1920px: DESKTOP EXTRA*/
-@media screen and(min-width: 1920px){
+@media screen and (min-width: 1920px){
     
 }
