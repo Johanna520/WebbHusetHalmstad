@@ -1,6 +1,5 @@
 a:visited{
 text-decoration: none;
-color:#424c56;
 }
 a:hover{
 }
@@ -89,21 +88,16 @@ p{
 }
 /*481px - 768px: TABLET*/
 @media screen and (min-width: 768px){
-    .contact-container {
-        margin-top: 50px;
-    }
-    #hero-text{
-        height: 200px;
-        margin-top: 100px;
-    }
-
-    .about-button{
-        display: none;
-    }
+.about-button{
+    display: none;
+}
+#hero-text{
+    margin-top: 10%;
+}
 }
 /*769px - 1024px: LAPTOP*/
 @media screen and (min-width: 1024px){
-    
+
 }
 /*1025px - 1200px: DESKTOP*/
 @media screen and (min-width: 120px){
