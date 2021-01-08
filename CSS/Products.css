@@ -7,12 +7,25 @@ p {
   line-height: 1.5em;
 }
 
+body{
+  padding-bottom: 125px;
+}
+
 .hero-container {
   min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+
+.prdc-one img:hover, .prdc-two img:hover, .prdc-three img:hover, .prdc-four img:hover{
+  filter: grayscale(10%);
+  filter: blur(2px);
+  cursor: pointer;
+  text-align: center;
 }
 
 .hide-mobile {
@@ -97,7 +110,7 @@ p {
   color: #0480b1;
   background-color: transparent;
   border: 2px solid #0480b1;
-  font-size: 1rem;
+  font-size: .7rem;
   text-transform: uppercase;
   border-radius: 12px;
   letter-spacing: 0.1rem;
@@ -132,7 +145,7 @@ p {
 /*Product section*/
 
 #products {
-  background-color: #d7dfe6;
+  background-color: #e5eaec;
   width: 100%;
   color: #424c56;
   text-align: center;
@@ -269,8 +282,12 @@ p {
 
   .prdc img{
     
-    max-width: 1200px;
-    width: 50%;
+    max-width: 1900px;
+    width: 60%;
+  }
+
+  .prdc p{
+    padding: 0;
   }
 
   .prdc-one{
@@ -280,7 +297,9 @@ p {
     margin-bottom: 100px;
   }
   .prdc-one p {
-    padding-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
   }
 
   .prdc-two{
@@ -293,18 +312,26 @@ p {
   }
 
   .prdc-two p{
-    padding-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
   }
 
   .prdc-three{
     display: flex;
-    margin-left: 20px;
     text-align: center;
+    margin-left: 20px;
     margin-bottom: 100px;
   }
 
   .prdc-three p {
-    padding-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+  }
+
+  .prdc-three img {
+    width: 200%;
   }
 
 
@@ -318,7 +345,9 @@ p {
   }
 
   .prdc-four p{
-    padding-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
   }
 
   
