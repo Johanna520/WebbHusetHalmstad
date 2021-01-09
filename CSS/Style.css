@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+a{
   text-decoration: none;
 }
 
@@ -234,7 +237,7 @@ footer p {
   }
 
   .container-head nav ul li a:hover {
-    color: #0480b1;
+    color: #0480b1 ;
   }
 }
 
@@ -255,9 +258,6 @@ footer p {
     margin-left: 15%;
     font-size: 30px;
     transition: 0.3s ease color;
-  }
-  .container-head nav ul li a:hover {
-    color: #0480b1;
   }
 }
 
