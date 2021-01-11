@@ -66,7 +66,7 @@ div{
 }
 
 
-.aside-container{
+.services{
     background-color: #edefee;
     border:1px solid #424c56;
     padding:20px;
@@ -83,7 +83,7 @@ section{
 
 
 
-.home-container{
+.services{
  
      width: 60%; 
      float: left;
@@ -105,3 +105,4 @@ section{
   
     
 }*/
+}
