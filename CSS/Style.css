@@ -219,6 +219,8 @@ footer p {
     margin-top: 10px;
     border: 1px solid #424c56;
     background-color: #424c56;
+    background: #424c56;
+    opacity: 1;
     
 
   }
