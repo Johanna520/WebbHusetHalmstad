@@ -15,6 +15,7 @@ html {
 
 .header-line {
   display: none;
+  opacity: 1;
 }
 
 body {
