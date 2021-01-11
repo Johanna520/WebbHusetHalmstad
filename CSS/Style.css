@@ -20,12 +20,12 @@ html {
 
 body {
   margin: 0;
-
   padding-bottom: 150px;
   position: relative;
   min-height: 100vh;
   background-color: #edefee;
 }
+
 a {
   text-decoration: none;
 }

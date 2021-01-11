@@ -8,9 +8,6 @@ nav ul li a:hover{
     color:white;
 }
 
-
-
-
 .home-container{
     display: flex;
     flex-direction: column;
@@ -35,75 +32,94 @@ nav ul li a:hover{
 }
 
 .home-text h1{
-    margin-top: 70px;;
+    padding-top: 70px;
     text-shadow: 2px 2px #edefee;
     font-size: 50px;
     font-weight: bolder;
 }
 
 
-
 .home-text h2{
     text-shadow: 2px 2px #edefee;
     font-size: 38px;
-    font-weight: bold;
-    
-    
+    font-weight: bold;        
 }
 
 .home-text h3{
     font-weight: bold;
     font-size: 22px;
-    font-style: italic;
-    
+    font-style: italic;    
 }
 
-.slogan h4{
-    
+.slogan h4{    
     padding: 0 10px; 
     font-style: italic;
     font-size: 20px;
     text-align: center;
-    margin:  30px 20px;
+    margin:30px 20px;
 }
-
 
 .services{
-    margin:  30px 20px;
+    margin:30px 20px;
     border:1px solid #424c56;
     padding:20px;
-   
+    
+   }
+.btn-servecis {
+    text-align: center;
 }
+
+.services-button{
+    border:1px solid #424c56;
+    color: #424c56;     
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block; 
+    
+    
+    
+}
+
 
 
 /*media queries*/
 @media screen and (min-width: 768px) {
-
-    hr.header-line {
-        
+    .header-line {
+          margin: 0;
+          padding: 0;
     }
-.home-container{
-    margin-top: 50px;
-    margin-bottom: 250px;;
-}
 
+    .home-container{
+       flex-direction: column;
+        margin: 70px;        
+    }
 
-/*
-.services{
+    .home-background{
+        position:absolute;
+        height: 575px;
+        width: 50%;        
+    }
+
+    .home-text{
+        margin: 60px;
+
+    }
+    .slogan{
+        position: relative;
+          
+        border:1px solid #424c56;
+        margin-top: 150px;
+        margin-left: 63%;
+       
+  
+    }
  
-     width: 60%; 
-     float: left;
-     position: flex;
 
-     
-}
-.aside-container{
-   position: flex;
-    float:right;
-    width: 30%;
-    
-    margin:0;
-}
+    .services{   
+        position: relative;
+        text-align: center;
+        margin-top: 300px;                  
+    }
 
-*/
+
 }
