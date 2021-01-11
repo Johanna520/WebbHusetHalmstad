@@ -212,14 +212,9 @@ footer p {
     display: block;
     margin-top: 10px;
     border: 1px solid #424c56;
-    background-color: #424c56;
-<<<<<<< HEAD
-    background: #424c56;
     opacity: 1;
     
 
-=======
->>>>>>> 3a9a7805f7601fbe3c0619eb1c26429d4a497366
   }
 
   .container-head nav {
@@ -282,13 +277,35 @@ footer p {
 
 @media screen and (min-width: 1200px) {
   #footer-contact {
-    margin-left: 25px;
+    margin-left: 400px;
   }
 
   #footer-socialmedia {
-    margin-right: 25px;
+    margin-right: 400px;
   }
 }
 
-@media screen and (min-width: 1920px) {
+
+@media screen and (min-width: 1500px) {
+
+  #footer-contact {
+    margin-left: 500px;
+  }
+
+  #footer-socialmedia {
+    margin-right: 500px;
+  }
+}
+
+
+@media screen and (min-width: 1850px) {
+
+  #footer-contact {
+    margin-left: 600px;
+  }
+
+  #footer-socialmedia {
+    margin-right: 600px;
+  }
+
 }
