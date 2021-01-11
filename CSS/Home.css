@@ -89,15 +89,9 @@ nav ul li a:hover{
           padding: 0;
     }
 
-<<<<<<< HEAD
     .home-container{
        flex-direction: column;
         margin: 70px;        
-=======
-    .header-line {
-    margin: 0;
-    padding: 0;    
->>>>>>> b6b1ad453150e0d546eeb3def56d1f02cdeb42d5
     }
 
     .home-background{
