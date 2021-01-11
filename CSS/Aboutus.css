@@ -32,7 +32,7 @@
     width: 50%;
     max-width: 80%;
     height: auto;
-    border-radius:50%;
+    border-radius:500px;
     padding-top: 20px;
     padding-bottom: 5px;
   }
@@ -56,6 +56,10 @@
 
 /*481px - 768px: TABLET*/
 @media screen and (min-width: 768px){
+  .accordion-body{
+    width: 65%;
+    margin: 0 auto;
+  }
 }
 
 /*769px - 1024px: LAPTOP*/
