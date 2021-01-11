@@ -32,7 +32,7 @@
     width: 50%;
     max-width: 80%;
     height: auto;
-    border-radius:50%;
+    border-radius:500px;
     padding-top: 20px;
     padding-bottom: 5px;
   }
@@ -50,19 +50,33 @@
     opacity: 0.5;
   }
 
-  /*320px - 480px: TELEFON*/
+ 
 @media screen and (min-width: 480px){
+  nav ul li a:hover{ color: white;}
 }
 
-/*481px - 768px: TABLET*/
+
 @media screen and (min-width: 768px){
+  .header-line {
+    margin: 0;
+    padding: 0;
 }
 
-/*769px - 1024px: LAPTOP*/
+  .accordion-body{
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .hero-about-us-container{
+    margin-top: 25px;
+  }
+}
+
+
 @media screen and (min-width: 1024px){
 }
 
-/*1025px - 1200px: DESKTOP*/
+
 @media screen and (min-width: 1200px){
 }
 
