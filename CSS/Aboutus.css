@@ -9,6 +9,10 @@
     line-height: 1.5em;
   }
 
+  #hero-about-us{
+    padding-top: 50px;
+  }
+
   .hero-about-us-container h1{
       text-align: center;
       font-size: 2rem;
@@ -18,12 +22,7 @@
 
   .hero-about-us-container p{
     float:left;
-    padding: 10px 15px;
-  }
-
-  .about-us-container {
-    text-align: center;
-    padding: 120px;
+    padding: 5px 15px;
   }
 
   .accordion-header img{
@@ -33,7 +32,7 @@
     width: 50%;
     max-width: 80%;
     height: auto;
-    border-radius:50%;
+    border-radius:500px;
     padding-top: 20px;
     padding-bottom: 5px;
   }
@@ -50,3 +49,35 @@
   .accordion-header button:hover{
     opacity: 0.5;
   }
+
+ 
+@media screen and (min-width: 480px){
+  nav ul li a:hover{ color: white;}
+}
+
+
+@media screen and (min-width: 768px){
+  .header-line {
+    margin: 0;
+    padding: 0;
+}
+
+  .accordion-body{
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .hero-about-us-container{
+    margin-top: 25px;
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+}
+
+
+@media screen and (min-width: 1200px){
+}
+
+
