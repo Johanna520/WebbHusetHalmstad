@@ -1,7 +1,5 @@
 a:visited{
-text-decoration: none;
-}
-a:hover{
+    text-decoration: none;
 }
 
 p{
@@ -48,6 +46,7 @@ p{
     margin: 0 30%;
     font-size: 22px;
     font-weight: 600;
+    color: #424c56;
 }
 
 
