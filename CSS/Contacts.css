@@ -7,6 +7,18 @@ p{
     padding: 0;
 }
 
+#cooltext{
+    display: none;
+}
+
+.contact-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 #hero-text h1:nth-child(1){
     margin-top: 20px;
     text-align: center;
@@ -31,12 +43,6 @@ p{
   }
   
 
-.contact-container{
-        width: 100%;
-        height: 100%;
-        text-align: center;
-    }
-
 .about-button{
     border: solid black 2px;
     padding: 5px 15px 5px 15px;
@@ -50,7 +56,7 @@ p{
 }
 
 
-.contact-container #people{
+.contact-container .people{
     color: #424c56;
     margin-top: 35px;
 }
@@ -88,15 +94,45 @@ p{
 /*481px - 768px: TABLET*/
 @media screen and (min-width: 768px){
 .about-button{
-    display: none;
+    margin-top: 3%;
 }
 #hero-text{
-    margin-top: 10%;
+    margin-top: 8%;
+}
+.people{
+    display: flex;
+    justify-content: center;
+}
+.ppl{
+    width: 30%;
+}
+#hero-text{
+    display: flex;
+    justify-content: center;
+}
+#hero-text h1{
+    margin: 0 !important;
+    padding: 0 3px;
+}
+.ppl img:hover{
+    filter: blur(1.5px);
+    cursor: pointer;
 }
 }
 /*769px - 1024px: LAPTOP*/
 @media screen and (min-width: 1024px){
+    .about-button{
+        display: none;
+    }
+    #cooltext{
+        display: block;
+        position: relative;
+        text-align: center;
 
+    }
+    #img-tooltip{
+        background-color: red;
+    }
 }
 /*1025px - 1200px: DESKTOP*/
 @media screen and (min-width: 120px){
