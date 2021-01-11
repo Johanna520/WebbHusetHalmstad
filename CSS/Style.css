@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-* {
+*{
   font-family: "Quicksand", sans-serif, Arial, Helvetica, sans-serif !important;
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
-
-a{
-  text-decoration: none;
+p{
+  margin: 0;
+  padding: 0;
 }
-
 html {
   background-color: #edefee;
   color: #424c56;
+  
 }
 
 .header-line {
@@ -21,11 +20,20 @@ html {
 
 body {
   margin: 0;
-
+ 
   padding-bottom: 150px;
   position: relative;
   min-height: 100vh;
   background-color: #edefee;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul {
@@ -102,6 +110,7 @@ footer {
 
 footer a {
   color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
@@ -113,12 +122,13 @@ footer p {
   font-size: 10px;
 }
 
-.footer-img {
+.footer-img{
   text-align: center;
 }
 
 .footer-img img {
   width: 10rem;
+ 
 }
 
 #footer-contact {
@@ -143,6 +153,7 @@ footer p {
 }
 
 #footer-socialmedia ul {
+ 
   right: 0;
   margin-top: 20px;
   margin-right: 5px;
@@ -156,26 +167,28 @@ footer p {
 /*end Footer */
 
 @media screen and (min-width: 768px) {
-  .logo-div {
-    position: absolute;
-    width: 100%;
-  }
+  
+.logo-div{
+  position: absolute;
+  width: 100%;
+}
 
-  .logo1 {
-    display: none;
-  }
+.logo1{
+  display: none;
+}
 
-  .logo2 {
-    padding-top: 10px;
-    width: 300px;
-    display: initial;
-  }
+.logo2{
+  padding-top: 10px;
+  width:300px;
+  display: initial;
+}
 
-  .hide-mobile {
+
+  .hide-mobile{
     padding: 0;
     margin: 0;
   }
-  .show-desktop {
+  .show-desktop{
     margin: 0;
     padding: 0;
   }
@@ -184,6 +197,7 @@ footer p {
   }
 
   .container-head {
+    
     background: linear-gradient(
         to bottom,
         rgba(141, 141, 141, 0.5) 0%,
@@ -194,6 +208,7 @@ footer p {
   }
 
   header {
+    
     height: 200px;
     width: 100%;
     position: relative;
@@ -204,6 +219,8 @@ footer p {
     margin-top: 10px;
     border: 1px solid #424c56;
     background-color: #424c56;
+    
+
   }
 
   .container-head nav {
@@ -211,6 +228,7 @@ footer p {
     right: 0;
     width: 100%;
     position: absolute;
+    
   }
 
   .container-head nav ul {
@@ -227,49 +245,59 @@ footer p {
   .container-head nav ul li {
     padding: 0 5% 0 5%;
   }
+  
+    .container-head nav ul li a {
+      color: black;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 0;
+      width: 100px;
+    }
 
-  .container-head nav ul li a {
-    color: black;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 0;
-    width: 100px;
+  .container-head nav ul li a:hover{
+    color: #0480b1;
   }
-
-  .container-head nav ul li a:hover {
-    color: #0480b1 ;
-  }
+  
 }
 
 @media screen and (min-width: 1024px) {
-  .logo-div {
+  .logo-div{
     width: 100%;
   }
-
-  .logo1 {
+  
+  .logo1{
     display: none;
   }
-
-  .logo2 {
+  
+  .logo2{
     display: initial;
   }
 
   .container-head ul li a {
     margin-left: 15%;
     font-size: 30px;
-    transition: 0.3s ease color;
+    transition: .3s ease color;
   }
+  .container-head nav ul li a:hover{
+    color:   #0480b1;
+  }
+
+ 
+  
+
 }
 
 @media screen and (min-width: 1200px) {
-  #footer-contact {
+  #footer-contact{
     margin-left: 25px;
   }
 
-  #footer-socialmedia {
+  #footer-socialmedia{
     margin-right: 25px;
   }
+
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px){
+  
 }
