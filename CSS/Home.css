@@ -79,8 +79,9 @@ nav ul li a:hover{
 /*media queries*/
 @media screen and (min-width: 768px) {
 
-    hr.header-line {
-        
+    .header-line {
+    margin: 0;
+    padding: 0;    
     }
 .home-container{
     margin-top: 50px;
