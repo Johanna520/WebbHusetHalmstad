@@ -112,6 +112,10 @@ p {
     padding: 0;
   }
   /* Nytt */
+
+  .hero-about-us-container p {
+    margin: 0 30px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -119,10 +123,38 @@ p {
   .accordion-item{
     margin-bottom: 15px;
   }
+
+  .hero-about-us-container p {
+    margin: 0 100px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .accordion-item{
-    margin-bottom: 35px;
+    margin-bottom: 5px;
+  }
+
+  .hero-about-us-container p {
+    margin: 0 200px;
+  }
+
+  .accordion-header img{
+    width: 50%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .accordion-item{
+    margin-bottom: 50px;
+  }
+
+  .accordion-body {
+    width:max-content;
+  }
+
+  .accordion-header img{
+    width: 50%;
+    padding: 0;
   }
 }
