@@ -30,33 +30,27 @@ nav ul li a:hover{
     top: 50%;
     left: 50%;    
 }
-
 .home-text h1{
     padding-top: 70px;
     text-shadow: 2px 2px #edefee;
     font-size: 50px;
-    font-weight: bolder;
+       
 }
-
 
 .home-text h2{
-    text-shadow: 2px 2px #edefee;
-    font-size: 38px;
-    font-weight: bold;        
-}
-
-.home-text h3{
     font-weight: bold;
     font-size: 22px;
     font-style: italic;    
 }
-.btn-aboutus {
+.btn-aboutus, .btn-contact, .btn-servecis{
     text-align: center;
 }
-
-.aboutus-button{
-    border:1px solid #edefee;
-    color: #edefee;     
+.btn-aboutus, .btn-contact, .btn-servecis a:hover{
+    color: #424c56;  
+}
+.aboutus-button, .services-button, .contact-button{
+    border:1px solid #424c56;
+    color: #424c56;     
     padding: 14px 25px;
     text-decoration: none;
     display: inline-block;   
@@ -75,25 +69,14 @@ nav ul li a:hover{
     background-color: #edefee;   
 }
 
-.slogan h4{    
+.slogan h3{    
     padding: 0 10px; 
     font-style: italic;
     font-size: 20px;
     text-align: center;
     margin:30px 20px;
 }
-.btn-contact{
-    text-align: center; 
-}
 
-.contact-button{
-    border:1px solid #424c56;
-    color: #424c56;     
-    padding: 14px 25px;
-    text-decoration: none;
-    display: inline-block;    
-    margin-bottom: 10px; 
-}
 
 .services{
     margin:5px 20px;
@@ -101,18 +84,7 @@ nav ul li a:hover{
     padding:20px;
     
    }
-.btn-servecis {
-    text-align: center;
-}
 
-.services-button{
-    border:1px solid #424c56;
-    color: #424c56;     
-    padding: 14px 25px;
-    text-decoration: none;
-    display: inline-block;    
-    margin-bottom: 10px; 
-}
 
 
 
@@ -134,7 +106,7 @@ nav ul li a:hover{
         width: 50%;  
         background-image: none;
         color: #edefee;
-        background-color: #424c56; 
+        background-color: #484c4d; 
     }
 
     .home-text{
@@ -146,8 +118,11 @@ nav ul li a:hover{
         text-shadow: none;
     }
 
-    .home-text h2{
-        text-shadow: none;
+  
+
+    .aboutus-button{
+        border:1px solid #edefee;
+        color: #edefee;  
     }
 
 
