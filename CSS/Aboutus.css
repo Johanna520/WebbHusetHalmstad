@@ -1,83 +1,120 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  p {
-    font-size: 0.9em;
-    line-height: 1.5em;
-  }
-
-  #hero-about-us{
-    padding-top: 50px;
-  }
-
-  .hero-about-us-container h1{
-      text-align: center;
-      font-size: 2rem;
-      padding-bottom: 5px;
-      padding-top: 15px;
-  }
-
-  .hero-about-us-container p{
-    float:left;
-    padding: 5px 15px;
-  }
-
-  .accordion-header img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    max-width: 80%;
-    height: auto;
-    border-radius:500px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-  }
-
-  .accordion-header button{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    font-size: 1rem;
-    padding-bottom: 20px;
-  }
-
-  .accordion-header button:hover{
-    opacity: 0.5;
-  }
-
- 
-@media screen and (min-width: 480px){
-  nav ul li a:hover{ color: white;}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
 
-@media screen and (min-width: 768px){
+#hero-about-us {
+  padding-top: 50px;
+}
+
+.hero-about-us-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+
+.hero-about-us-container p {
+  float: left;
+  padding: 5px 15px;
+}
+
+.accordion-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 80%;
+  height: auto;
+  border-radius: 500px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.accordion-header button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.accordion-header button:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 480px) {
+  nav ul li a:hover {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .header-line {
     margin: 0;
     padding: 0;
-}
+  }
 
-  .accordion-body{
+  .accordion-body {
     width: 65%;
     margin: 0 auto;
   }
 
-  .hero-about-us-container{
+  .hero-about-us-container {
     margin-top: 25px;
   }
+
+  /* .accordion{
+  position: initial;
+  height: 100%;
+  width: 100%;
+} */
+
+  /* Nytt */
+  .accordion {
+    height: 80vh;
+  }
+
+  .test {
+    height: 50%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .test1{
+    position: initial;
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    padding: 0;
+    font-size: 13px;
+  }
+  .person1, .person2, .person3, .person4{
+    margin: 0 10px;
+    font-size: 1px;
+  }
+
+  .accordion-button{
+    padding: 0 !important;
+  }
+
+  .accordion-header img{
+    width: 100%;
+    padding: 0;
+  }
+  /* Nytt */
 }
 
-
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 }
 
-
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 }
-
-
