@@ -40,12 +40,13 @@ nav ul li a:hover{
 .home-text h2{
     font-weight: bold;
     font-size: 22px;
-    font-style: italic;    
+    font-style: italic; 
+    
 }
 .btn-aboutus, .btn-contact, .btn-servecis{
     text-align: center;
 }
-.btn-aboutus, .btn-contact, .btn-servecis a:hover{
+.btn-aboutus:hover, .btn-contact:hover, .btn-servecis:hover{
     color: #424c56;  
 }
 .aboutus-button, .services-button, .contact-button{
@@ -54,7 +55,7 @@ nav ul li a:hover{
     padding: 14px 25px;
     text-decoration: none;
     display: inline-block;   
-    margin-bottom: 10px;   
+    margin:30px 20px;  
 }
 
 .slogan{
@@ -96,41 +97,42 @@ nav ul li a:hover{
     }
 
     .home-container{
-        flex-direction: column;
-        margin: 70px;     
+        
+        margin-top: 70px;     
     }
 
     .home-background{
         position:absolute;
         height: 575px;
         width: 50%;  
-        background-image: none;
-        color: #edefee;
-        background-color: #484c4d; 
+        background-image:  url(/IMAGES/HeaderPicture.jpg);
+  
+        margin-left: 10px;
+        border:1px solid #424c56;
     }
 
     .home-text{
-        margin: 60px;
+        border:1px solid #424c56;
+        margin: 60px 50px;
         text-shadow: none;
+        background-color: #edefee;
+       
     }
 
     .home-text h1{
         text-shadow: none;
     }
 
-  
-
-    .aboutus-button{
-        border:1px solid #edefee;
-        color: #edefee;  
+    .aboutus-button a:hover{
+        color: #edefee;
     }
 
 
    .slogan{
        position:relative;
-       margin:0 0 0 65%;
-       
-        height:575px;
+       margin:0 0 0 60%;
+       height:575px;
+       margin-right: 10px;
     
    }
    .slogan-image{
@@ -144,7 +146,47 @@ nav ul li a:hover{
         text-align: center;
         margin-top: 50px;                  
     }
+}
 
 
 
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .home-background{
+       margin-left: 10px;
+        width: 50%;  
+       
+      
+        border:1px solid #424c56;
+    }
+    .slogan{
+        position:relative;
+        margin:0 10px 0 55%;
+        height:575px;
+     
+    }
+
+       .slogan-image{
+    margin: 40px 10px 20px;
+    width: 85%;
+    height: auto;
+   }
+
+}
+
+@media screen and (min-width: 1200px){
+
+    .slogan h3{    
+        margin:10px 20px;
+    }
+
+    
+    .slogan-image{
+       margin-left: 50px;
+        width: 80%;
+       }
 }
