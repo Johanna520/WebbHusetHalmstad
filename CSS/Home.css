@@ -43,11 +43,11 @@ nav ul li a:hover{
     font-style: italic; 
     
 }
-.btn-aboutus, .btn-contact, .btn-servecis{
+.aboutus-button, .contact-button, .services-button{
     text-align: center;
 }
-.btn-aboutus:hover, .btn-contact:hover, .btn-servecis:hover{
-    color: #424c56;  
+.aboutus-button:hover, .contact-button:hover, .services-button:hover{
+    color: red;  
 }
 .aboutus-button, .services-button, .contact-button{
     border:1px solid #424c56;
@@ -85,9 +85,6 @@ nav ul li a:hover{
     padding:20px;
     
    }
-
-
-
 
 /*media queries*/
 @media screen and (min-width: 768px) {
@@ -148,12 +145,6 @@ nav ul li a:hover{
     }
 }
 
-
-
-
-
-
-
 @media screen and (min-width: 1024px) {
 
     .home-background{
@@ -184,9 +175,14 @@ nav ul li a:hover{
         margin:10px 20px;
     }
 
-    
+    .slogan {
+        text-align: center;
+    }
     .slogan-image{
-       margin-left: 50px;
-        width: 80%;
+       margin: 0;
+       max-width: 650px;
+    width: 80%;
        }
+
+
 }
