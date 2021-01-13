@@ -30,37 +30,44 @@ nav ul li a:hover{
     top: 50%;
     left: 50%;    
 }
+
 .home-text h1{
     padding-top: 70px;
     text-shadow: 2px 2px #edefee;
     font-size: 50px;
-       
+    font-weight: bolder;
 }
 
+
 .home-text h2{
+    text-shadow: 2px 2px #edefee;
+    font-size: 38px;
+    font-weight: bold;        
+}
+
+.home-text h3{
     font-weight: bold;
     font-size: 22px;
     font-style: italic;    
 }
-.btn-aboutus, .btn-contact, .btn-servecis{
+.btn-aboutus {
     text-align: center;
 }
-.btn-aboutus, .btn-contact, .btn-servecis a:hover{
-    color: #424c56;  
-}
-.aboutus-button, .services-button, .contact-button{
-    border:1px solid #424c56;
-    color: #424c56;     
+
+.aboutus-button{
+    border:1px solid #edefee;
+    color: #edefee;     
     padding: 14px 25px;
     text-decoration: none;
-    display: inline-block;   
-    margin-bottom: 10px;   
+    display: inline-block;     
 }
 
 .slogan{
     position: relative;
     border:1px solid #424c56;
     margin:30px 20px;
+
+ 
 }
 
 .slogan-image{   
@@ -69,14 +76,25 @@ nav ul li a:hover{
     background-color: #edefee;   
 }
 
-.slogan h3{    
+.slogan h4{    
     padding: 0 10px; 
     font-style: italic;
     font-size: 20px;
     text-align: center;
     margin:30px 20px;
 }
+.btn-contact{
+    text-align: center; 
+}
 
+.contact-button{
+    border:1px solid #424c56;
+    color: #424c56;     
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;    
+    margin-bottom: 10px; 
+}
 
 .services{
     margin:5px 20px;
@@ -84,7 +102,17 @@ nav ul li a:hover{
     padding:20px;
     
    }
+.btn-servecis {
+    text-align: center;
+}
 
+.services-button{
+    border:1px solid #424c56;
+    color: #424c56;     
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;     
+}
 
 
 
@@ -106,7 +134,7 @@ nav ul li a:hover{
         width: 50%;  
         background-image: none;
         color: #edefee;
-        background-color: #484c4d; 
+        background-color: #424c56; 
     }
 
     .home-text{
@@ -118,33 +146,37 @@ nav ul li a:hover{
         text-shadow: none;
     }
 
-  
-
-    .aboutus-button{
-        border:1px solid #edefee;
-        color: #edefee;  
+    .home-text h2{
+        text-shadow: none;
     }
 
 
-   .slogan{
-       position:relative;
-       margin:0 0 0 65%;
+    .slogan{
+        position: relative;
+        border:1px solid #424c56;
+        margin-left: 63%;  
+        height: 575px;
+
+     
+    }
+
+    .slogan-image{
        
-        height:575px;
     
-   }
-   .slogan-image{
-    margin: 40px 10px 20px;
-    width: 95%;
-    height: auto;
-   }
+       
+        background-color: #edefee;       
+        background-repeat: no-repeat;
+        background-size:25%;
+    }
+    .slogan h4{
+        margin-top: 50px;
+    }
 
     .services{   
         position: relative;
         text-align: center;
         margin-top: 50px;                  
     }
-
 
 
 }
