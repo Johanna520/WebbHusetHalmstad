@@ -124,14 +124,18 @@ p{
     .about-button{
         display: none;
     }
-    #cooltext{
-        display: block;
-        position: relative;
-        text-align: center;
-
     }
     #img-tooltip{
-        background-color: red;
+        position: relative;
+    }
+    #cooltext:hover{
+        animation: fade 1s;
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
     }
 }
 /*1025px - 1200px: DESKTOP*/
