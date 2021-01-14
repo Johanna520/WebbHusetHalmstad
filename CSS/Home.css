@@ -4,6 +4,7 @@
     padding: 0;
     
 }
+
 nav ul li a:hover{
     color:white;
 }
@@ -13,7 +14,6 @@ nav ul li a:hover{
     flex-direction: column;
     background-color: #edefee;
     color: #424c56;
-
 }
 
 .home-background{
@@ -23,39 +23,42 @@ nav ul li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
 }
-.home-text{
+
+#home-text{
     text-align: center;
     top: 50%;
     left: 50%;    
 }
-.home-text h1{
+
+#home-text h1{
     padding-top: 70px;
     text-shadow: 2px 2px #edefee;
-    font-size: 50px;
-       
+    font-size: 50px;       
 }
 
-.home-text h2{
+#home-text h2{
     font-weight: bold;
     font-size: 22px;
-    font-style: italic; 
+    font-style: italic;     
+}
+
+#btn-aboutus, #btn-contact, #btn-servecis{
+    text-align: center;
     
 }
-.aboutus-button, .contact-button, .services-button{
-    text-align: center;
+
+#aboutus-button:hover, #contact-button:hover, #services-button:hover{
+    color: grey;  
 }
-.aboutus-button:hover, .contact-button:hover, .services-button:hover{
-    color: red;  
-}
-.aboutus-button, .services-button, .contact-button{
+
+#aboutus-button, #services-button, #contact-button{
     border:1px solid #424c56;
     color: #424c56;     
     padding: 14px 25px;
     text-decoration: none;
     display: inline-block;   
-    margin:30px 20px;  
+    margin:30px 20px;   
 }
 
 .slogan{
@@ -70,7 +73,7 @@ nav ul li a:hover{
     background-color: #edefee;   
 }
 
-.slogan h3{    
+#slogan h3{    
     padding: 0 10px; 
     font-style: italic;
     font-size: 20px;
@@ -83,8 +86,7 @@ nav ul li a:hover{
     margin:5px 20px;
     border:1px solid #424c56;
     padding:20px;
-    
-   }
+}
 
 /*media queries*/
 @media screen and (min-width: 768px) {
@@ -93,8 +95,7 @@ nav ul li a:hover{
           padding: 0;
     }
 
-    .home-container{
-        
+    .home-container{        
         margin-top: 70px;     
     }
 
@@ -103,71 +104,66 @@ nav ul li a:hover{
         height: 575px;
         width: 50%;  
         background-image:  url(/IMAGES/HeaderPicture.jpg);
-  
         margin-left: 10px;
         border:1px solid #424c56;
     }
 
-    .home-text{
+    #home-text{
         border:1px solid #424c56;
         margin: 60px 50px;
         text-shadow: none;
         background-color: #edefee;
-       
     }
 
-    .home-text h1{
+    #home-text h1{
         text-shadow: none;
     }
-
-    .aboutus-button a:hover{
-        color: #edefee;
-    }
-
 
    .slogan{
        position:relative;
        margin:0 0 0 60%;
        height:575px;
        margin-right: 10px;
-    
-   }
-   .slogan-image{
-    margin: 40px 10px 20px;
-    width: 95%;
-    height: auto;
    }
 
-    .services{   
+   .slogan-image{
+        margin: 40px 10px 20px;
+        width: 95%;
+        height: auto;
+   }
+
+   .services{   
         position: relative;
         text-align: center;
         margin-top: 50px;                  
     }
 }
 
+
+
 @media screen and (min-width: 1024px) {
 
     .home-background{
        margin-left: 10px;
         width: 50%;  
-       
-      
         border:1px solid #424c56;
     }
+
     .slogan{
         position:relative;
         margin:0 10px 0 55%;
-        height:575px;
-     
+        height:575px; 
     }
 
-       .slogan-image{
-    margin: 40px 10px 20px;
-    width: 85%;
-    height: auto;
+    .slogan-image{
+        margin: 40px 10px 20px;
+        width: 85%;
+        height: auto;
    }
 
 }
+
+
 
 @media screen and (min-width: 1200px){
 
@@ -178,11 +174,10 @@ nav ul li a:hover{
     .slogan {
         text-align: center;
     }
+
     .slogan-image{
-       margin: 0;
-       max-width: 650px;
-    width: 80%;
-       }
-
-
+        margin: 0;
+        max-width: 650px;
+        width: 80%;
+    }
 }
