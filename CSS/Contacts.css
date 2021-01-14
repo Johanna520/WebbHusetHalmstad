@@ -2,13 +2,21 @@ a:visited{
     text-decoration: none;
 }
 
+a{
+    color:#424c56;
+}
+
 p{
     margin: 0;
     padding: 0;
 }
 
-#cooltext{
+.cooltext{
     display: none;
+}
+
+.ppl a:hover{
+    color:  #0480b1;
 }
 
 .contact-container{
@@ -43,8 +51,8 @@ p{
   }
   
 
-.about-button{
-    border: solid black 2px;
+  .about-button{
+    border: solid  #424c56 2px;
     padding: 5px 15px 5px 15px;
     display: flex;
     justify-content: center;
@@ -52,7 +60,15 @@ p{
     margin: 0 30%;
     font-size: 22px;
     font-weight: 600;
-    color: #424c56;
+    color:#424c56;
+
+  transition: 0.3s ease background-color;
+  transition-property: background-color, color;
+}
+
+.about-button:hover{
+    color: white;
+    background-color: #0480b1;
 }
 
 
@@ -106,6 +122,10 @@ p{
 .ppl{
     width: 30%;
 }
+
+.ppl h1{
+    font-size: 20px;
+}
 #hero-text{
     display: flex;
     justify-content: center;
@@ -115,8 +135,9 @@ p{
     padding: 0 3px;
 }
 .ppl img:hover{
-    filter: blur(1.5px);
+    filter: blur(1.12px);
     cursor: pointer;
+    position: relative;
 }
 }
 /*769px - 1024px: LAPTOP*/
@@ -124,18 +145,28 @@ p{
     .about-button{
         display: none;
     }
+    
+    .img-tooltip{
+position: relative;
+text-align: center;
+
     }
-    #img-tooltip{
-        position: relative;
+    .img-tooltip:hover{
     }
-    #cooltext:hover{
-        animation: fade 1s;
-        position: absolute;
+    .cooltext:hover{
+        color: white !important;
+    }
+    .cooltext{
+        margin: 0 !important;
+        align-self: center;
         display: block;
+        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: transparent !important;
+        font-size: 110%;
+        font-weight: 900;
     }
 }
 /*1025px - 1200px: DESKTOP*/
@@ -144,9 +175,5 @@ p{
 }
 /*1201px - 1920px: DESKTOP EXTRA*/
 @media screen and (min-width: 1920px){
-    
-}
-
-@keyframes{
     
 }
