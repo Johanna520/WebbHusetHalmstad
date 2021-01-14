@@ -48,10 +48,6 @@ nav ul li a:hover{
     
 }
 
-#aboutus-button:hover, #contact-button:hover, #services-button:hover{
-    color: grey;  
-}
-
 #aboutus-button, #services-button, #contact-button{
     border:1px solid #424c56;
     color: #424c56;     
@@ -59,7 +55,18 @@ nav ul li a:hover{
     text-decoration: none;
     display: inline-block;   
     margin:30px 20px;   
+    transition: 0.3s ease background-color;
+    transition-property: background-color, color;
 }
+
+
+#aboutus-button:hover, #contact-button:hover, #services-button:hover{
+    color: white;
+    background-color: #0480b1 ;
+    border-color: #0480b1;
+}
+
+
 
 .slogan{
     position: relative;
@@ -177,7 +184,11 @@ nav ul li a:hover{
 
     .slogan-image{
         margin: 0;
-        max-width: 650px;
+        max-width: 600px;
         width: 80%;
+    }
+
+    #btn-contact{
+
     }
 }

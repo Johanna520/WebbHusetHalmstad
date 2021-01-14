@@ -11,8 +11,11 @@ p {
 
 #hero-about-us {
   padding-top: 50px;
+  height: 400px;
 }
-
+.hero-about-us-container{
+  height: 100%;
+}
 .hero-about-us-container h1 {
   text-align: center;
   font-size: 2rem;
@@ -21,7 +24,7 @@ p {
 }
 
 .hero-about-us-container p {
-  float: left;
+  float: let;
   padding: 5px 15px;
 }
 
@@ -72,21 +75,16 @@ p {
     margin-top: 25px;
   }
 
-  /* .accordion{
-  position: initial;
-  height: 100%;
+   .accordion{
   width: 100%;
-} */
-
-  /* Nytt */
-  .accordion {
-    height: 80vh;
-  }
+  height: 70vh;
+  position: static;
+} 
 
   .test {
     height: 50%;
     display: flex;
-    position: absolute;
+    position: static;
     bottom: 0;
   }
 
@@ -130,23 +128,33 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
-  .accordion-item{
-    margin-bottom: 5px;
-  }
-
-  .hero-about-us-container p {
-    margin: 0 200px;
-  }
-
+ 
   .accordion-header img{
     width: 50%;
     padding: 0;
+  }
+
+  .hero-about-us-container h1{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .hero-about-us-container{
+    text-align: left;
   }
 }
 
 @media screen and (min-width: 1920px){
   .accordion-item{
     margin-bottom: 50px;
+  }
+
+  .hero-about-us-container p {
+    font-size: 1.4rem;
+  }
+
+  .hero-about-us-container h1 {
+    font-size: 2.2rem;
   }
 
   .accordion-body {
@@ -156,5 +164,9 @@ p {
   .accordion-header img{
     width: 50%;
     padding: 0;
+  }
+
+  .test{
+    padding-top: 50px;
   }
 }
